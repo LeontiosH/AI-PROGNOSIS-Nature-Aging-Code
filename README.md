@@ -30,24 +30,28 @@ Select the directory of your data and update the datafolder in the command windo
 Hence, to do this without changing the .do file write in the command window:
 
 ********* for the main figures
+
 global codefolder "C:/NatAgingPaper/MainFigsDataDo" * here are the one used by me
 global datafolder "C:/NatAgingPaper/FinallyUsedRev1-USETHIS/ManusciptFigs" * here are the one used by me
 cd C:/NatAgingPaper/FinallyUsedRev1-USETHIS/ManusciptFigs * here are the one used by me
 do "C:/NatAgingPaper/MainFigsDataDo/batchLeontiosMain.do" * here are the one used by me
 
 ************ for the suppl figures
+
 global codefolder "C:/NatAgingPaper/MainFigsDataDo" * here are the one used by me
 global datafolder "C:\NatAgingPaper\FinallyUsedRev1-USETHIS\SupplFigs" * here are the one used by me
 cd C:\NatAgingPaper\FinallyUsedRev1-USETHIS\SupplFigs * here are the one used by me
 do "C:/NatAgingPaper/MainFigsDataDo/batchLeontiosMainFigs.do" * here are the one used by me
 
 ************ for the metaregression analysis
+
 global codefolder "C:/NatAgingPaper/MainFigsDataDo" * here are the one used by me
 global datafolder "C:\NatAgingPaper\FinallyUsedRev1-USETHIS\MetaRegression" * here are the one used by me
 cd C:\NatAgingPaper\FinallyUsedRev1-USETHIS\MetaRegression * here are the one used by me
 do "C:/NatAgingPaper/MainFigsDataDo/batchLeontiosMetaREG.do" * here are the one used by me
  
 ************ for the subgrouping testing analysis
+
 global codefolder "C:/NatAgingPaper/MainFigsDataDo" * here are the one used by me
 global datafolder "C:\NatAgingPaper\FinallyUsedRev1-USETHIS\SubGrouping" * here are the one used by me
 cd C:\NatAgingPaper\FinallyUsedRev1-USETHIS\SubGrouping * here are the one used by me
