@@ -7,7 +7,10 @@ Sofia B. Dias1, Ghada Alhussein2,3, Beatriz Alves2, Margherita Fabbri4, Olivier 
 submitted to Nature Aging
 (please cite it accordingly)
 ************************************************
-To run the whole analysis, use the following .do files that run as batches:
+Requires STATA Version 17.0, Midas, Metandi modules
+First copy the content of the theMIDAS-ADO_CodeByLeontios.txt file and replace the whole code of STATA midas.ado file. This will allow the estimation of additional parameters that are not exported by the current version of the midas.ado
+
+Then, to run the whole analysis, use the following .do files that run as batches:
 
 batchLeontiosMain.do
 batchLeontiosMetaREG.do
