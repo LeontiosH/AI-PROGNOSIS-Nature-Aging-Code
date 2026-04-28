@@ -17,6 +17,7 @@ There is no need for any non-standard hardware
 
 2. Installation guide
    * Instructions
+     
      First install the STATA Verison 17.0 from https://www.stata.com/support/download-install/
 
      Then install the MIDAS and METANDI modules as follows:
@@ -24,6 +25,7 @@ There is no need for any non-standard hardware
      ssc install metandi, replace
      
    * Typical online install time on a "normal" desktop computer
+     
      STATA 17.0 installation 5-12 mins
      Midas, Metandi modules 5 secs
      
