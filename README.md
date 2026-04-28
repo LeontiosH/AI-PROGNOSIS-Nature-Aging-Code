@@ -7,9 +7,23 @@ Sofia B. Dias1, Ghada Alhussein2,3, Beatriz Alves2, Margherita Fabbri4, Olivier 
 submitted to Nature Aging
 (please cite it accordingly)
 ************************************************
+1.  System requirements
 Requires STATA Version 17.0, Midas, Metandi modules
-First copy the content of the theMIDAS-ADO_CodeByLeontios.txt file and replace the whole code of STATA midas.ado file. This will allow the estimation of additional parameters that are not exported by the current version of the midas.ado
+The software was tested on STATA Version 17.0SE on a ThinkPad X1 Lenovo x64-based PC, X1 Carbon 6th, Intel(R) Core(TM) i7-8550U CPU@1.80GH, 1992 Mhz, 4 Cores, 8 Logical Processors, OS Microsoft Windows 11 Pro
+There is no need for any non-standard hardware
 
+2. Installation guide
+   * Instructions
+     First install the STATA Verison 17.0 from https://www.stata.com/support/download-install/
+     Thenk install the MIDAS and METANDI modules as follows:
+     ssc install midas, replace
+     ssc install metandi, replace
+   * Typical online install time on a "normal" desktop computer
+     STATA 17.0 installation 5-12 mins
+     Midas, Metandi modules 5 secs
+3. Demo
+   *Instructions to run on data   
+First copy the content of the theMIDAS-ADO_CodeByLeontios.txt file and replace the whole code of STATA midas.ado file. This will allow the estimation of additional parameters that are not exported by the current version of the midas.ado
 Then, to run the whole analysis, use the following .do files that run as batches:
 
 batchLeontiosMain.do
@@ -57,6 +71,7 @@ global datafolder "C:\NatAgingPaper\FinallyUsedRev1-USETHIS\SubGrouping" * here 
 cd C:\NatAgingPaper\FinallyUsedRev1-USETHIS\SubGrouping * here are the one used by me
 do "C:/NatAgingPaper/MainFigsDataDo/batchLeontiosSubGROUP.do" * here are the one used by me
 
+   * Expected output
 The batch files run for every .csv that has the contingency tables and exist in the datafolder. Output folders are automatically created, with all related material (.gph, .png, .xlsx).
 
 Note that in the AI_PROGNOSIS_SubGrouping_FINAL, the covariates explored in the paper were used as names. To avoid any error, update with the names of your covariates, accordingly. Here is the current setting of the covariates' name and short name, that should be edited according to your covariates' names and short names.
@@ -75,6 +90,51 @@ Note that in the AI_PROGNOSIS_SubGrouping_FINAL, the covariates explored in the 
     else                               local shortname "`v'"
 
     display "  Short name: `shortname'"
+
+   * Expected run time for demo on a "normal" desktop computer
+For each csv (on an average sample size 60 studies) the code takes about 2 mins. According to the number (N) of the .csv files in the directory the total run time is 2N.
+
+4.  Instructions for use
+    * How to run the software on our data
+  Use the demo .csv file and follow the instructions described in 3. Demo.
+    * Reproduction instructions
+  The output on the sample dataset (motor_pd_coded_allstudies_new.csv) will be a folder "motor_pd_coded_allstudies_new_OUTPUT" that incudes the following produced output used in the paper:
+
+motor_pd_coded_allstudies_new_baujat_results.dta
+motor_pd_coded_allstudies_new_BaujatPlotFINAL.gph
+motor_pd_coded_allstudies_new_BaujatPlotFINAL.png
+motor_pd_coded_allstudies_new_BivBox.gph
+motor_pd_coded_allstudies_new_BivBox.png
+motor_pd_coded_allstudies_new_Cook4All.gph
+motor_pd_coded_allstudies_new_Cook4All.png
+motor_pd_coded_allstudies_new_Deeks.gph
+motor_pd_coded_allstudies_new_Deeks.png
+motor_pd_coded_allstudies_new_ForestPlot.gph
+motor_pd_coded_allstudies_new_ForestPlot.png
+motor_pd_coded_allstudies_new_ForestPlotResized.gph
+motor_pd_coded_allstudies_new_ForestPlotResized.png
+motor_pd_coded_allstudies_new_influence_flags.xlsx
+motor_pd_coded_allstudies_new_loso_combined.gph
+motor_pd_coded_allstudies_new_loso_combined.png
+motor_pd_coded_allstudies_new_loso_flags_only.dta
+motor_pd_coded_allstudies_new_loso_heterogeneity.gph
+motor_pd_coded_allstudies_new_loso_heterogeneity.png
+motor_pd_coded_allstudies_new_loso_Q.gph
+motor_pd_coded_allstudies_new_loso_Q.png
+motor_pd_coded_allstudies_new_loso_results.dta
+motor_pd_coded_allstudies_new_loso_snsp.gph
+motor_pd_coded_allstudies_new_loso_snsp.png
+motor_pd_coded_allstudies_new_META_LOSO.gph
+motor_pd_coded_allstudies_new_META_LOSO.png
+motor_pd_coded_allstudies_new_Results.txt
+motor_pd_coded_allstudies_new_sensitivity_summary.csv
+motor_pd_coded_allstudies_new_sensitivity_summary_clean.xlsx
+motor_pd_coded_allstudies_new_SROC.gph
+motor_pd_coded_allstudies_new_SROC.png
+
+
+
+
 
 For any question contact:
 Prof. Leontios Hadjileontiadis, leontios@auth.gr
