@@ -1,0 +1,91 @@
+Authors,Data type,In/OFF clinic,ML/DL,Meds ON/OFF,Modality,N,Sample size,Scale versio,Scale version,Sensor-Placement,Type of Ground truth,Wearable,Year,fn,fp,studyid,tn,tp
+Duque,1D (Time-Series),In clinic,ML,NR,Gyroscope only,16,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,0,0,1,4,12
+Duque,1D (Time-Series),In clinic,ML,NR,Gyroscope only,16,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,0,0,2,4,12
+Duque,1D (Time-Series),In clinic,ML,NR,Gyroscope only,16,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,0,0,3,4,12
+Duque,1D (Time-Series),In clinic,ML,NR,Gyroscope only,16,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,0,0,4,4,12
+Duque,1D (Time-Series),In clinic,ML,NR,Gyroscope only,25,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,0,0,5,4,12
+Duque,1D (Time-Series),In clinic,ML,NR,Gyroscope only,25,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,0,0,6,4,12
+Duque,1D (Time-Series),In clinic,ML,NR,Gyroscope only,35,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,0,1,7,8,27
+Duque,1D (Time-Series),In clinic,ML,NR,Gyroscope only,35,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,0,1,8,8,27
+Tsiouris et al.,1D (Time-Series),In clinic,ML,NR,Gyroscope only,6218,N≥60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,94,187,9,4464,1473
+Samadi et al.,1D (Time-Series),In clinic,ML,NR,Gyroscope only,50,N<60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2020,3,0,10,5,42
+Pan et al.,1D (Time-Series),In clinic,ML,NR,Gyroscope only,40,N<60,UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2015,2,6,11,14,18
+Sun et al.,1D (Time-Series),In clinic,ML,NR,Gyroscope only,4000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,230,221,12,1779,1770
+Sun et al.,1D (Time-Series),In clinic,ML,NR,Gyroscope only,4000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,237,226,13,1774,1763
+Sun et al.,1D (Time-Series),In clinic,ML,NR,Gyroscope only,4000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,198,154,14,1846,1802
+Sun et al.,1D (Time-Series),In clinic,DL,NR,Gyroscope only,4000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,173,179,15,1821,1827
+Sun et al.,1D (Time-Series),In clinic,DL,NR,Gyroscope only,4000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,418,469,16,1531,1582
+Sun et al.,1D (Time-Series),In clinic,ML,NR,Gyroscope only,8000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,358,341,17,3659,3642
+Sun et al.,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,8000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,382,401,18,3599,3618
+Sun et al.,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,8000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,323,298,19,3702,3677
+Sun et al.,1D (Time-Series),In clinic,DL,NR,Inertial - IMU,8000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,315,303,20,3697,3685
+Sun et al.,1D (Time-Series),In clinic,DL,NR,Inertial - IMU,8000,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,750,478,21,3522,3250
+Channa et al.,1D (Time-Series),In clinic,DL,Mixed,Inertial - IMU,2228,N≥60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2025,16,55,22,1484,673
+Channa et al.,1D (Time-Series),In clinic,DL,Mixed,Inertial - IMU,2228,N≥60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2025,45,28,23,1456,699
+Channa et al.,1D (Time-Series),In clinic,DL,Mixed,Inertial - IMU,2228,N≥60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2025,44,56,24,1776,352
+Channa et al.,1D (Time-Series),In clinic,DL,Mixed,Inertial - IMU,2228,N≥60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2025,38,32,25,1862,296
+Channa et al.,1D (Time-Series),In clinic,DL,Mixed,Inertial - IMU,2228,N≥60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2025,41,13,26,2150,24
+Wang et al.,1D (Time-Series),In clinic,ML,NR,Optical fiber (curvature),365,N≥60,Bain and Findley scale,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2021,66,109,27,67,123
+Wang et al.,1D (Time-Series),In clinic,ML,NR,Optical fiber (curvature),365,N≥60,Bain and Findley scale,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2021,62,113,28,63,127
+Wang et al.,1D (Time-Series),In clinic,DL,NR,Optical fiber (curvature),365,N≥60,Bain and Findley scale,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2021,40,40,29,136,149
+Wang et al.,1D (Time-Series),In clinic,DL,NR,Optical fiber (curvature),365,N≥60,Bain and Findley scale,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2021,40,35,30,141,149
+Rodriguez et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,225,N≥60,Bespoke Clinical Scale,,Multi-Site,Non-standardized Custom Clinical Scale,Wearable,2024,16,2,31,77,130
+Rodriguez et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,4203,N≥60,Bespoke Clinical Scale,,Multi-Site,Non-standardized Custom Clinical Scale,Wearable,2024,4,146,32,3991,62
+Jin et al.,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,1964,N≥60,UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2024,34,36,33,1417,477
+Jin et al.,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,1964,N≥60,UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2024,49,42,34,1411,462
+Jin et al.,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,1964,N≥60,UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2024,44,36,35,1417,467
+Jin et al.,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,1964,N≥60,UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2024,47,23,36,1672,222
+Jin et al.,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,1964,N≥60,UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2024,51,24,37,1671,218
+Jeon,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,131,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,4,5,38,47,75
+Jeon,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,131,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,4,7,39,102,18
+Jeon,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,131,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,7,2,40,107,15
+Jeon,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,131,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,2,5,41,120,4
+Jeon,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,131,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,2,0,42,129,0
+Jeon,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,131,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,4,5,43,47,75
+Jeon,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,131,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,4,5,44,47,75
+Jeon,1D (Time-Series),In clinic,ML,NR,Inertial - IMU,131,N≥60,UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2017,4,5,45,47,75
+Lin et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,33,N≥60,MDS-UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2023,4,4,46,9,16
+Lin et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,131,N≥60,MDS-UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2023,10,11,47,53,57
+Lin et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,131,N≥60,MDS-UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2023,10,24,48,44,53
+Lin et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,131,N≥60,MDS-UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2023,6,30,49,37,58
+Lin et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,131,N≥60,MDS-UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2023,21,16,50,48,46
+Lin et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,131,N≥60,MDS-UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2023,19,17,51,47,48
+Lin et al.,1D (Time-Series),In clinic,ML,OFF,Inertial - IMU,131,N≥60,MDS-UPDRS,,Multi-Site,Standardized Clinical Scale,Wearable,2023,19,11,52,56,45
+Li et al.,2D+Time (Video),In clinic,DL,OFF,Video,252,N≥60,MDS-UPDRS,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2022,4,4,53,194,50
+Li et al.,2D+Time (Video),In clinic,DL,OFF,Video,252,N≥60,MDS-UPDRS,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2022,16,27,54,110,99
+Li et al.,2D+Time (Video),In clinic,DL,OFF,Video,252,N≥60,MDS-UPDRS,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2022,26,13,55,187,26
+Li et al.,2D+Time (Video),In clinic,DL,OFF,Video,252,N≥60,MDS-UPDRS,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2022,4,4,56,218,26
+Li et al.,2D+Time (Video),In clinic,DL,OFF,Video,252,N≥60,MDS-UPDRS,,Vision-Based (non-contact),Standardized Clinical Scale,Non-Wearable,2022,0,2,57,248,2
+Ziogas et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,0,1,58,5,42
+Ziogas et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,0,1,59,11,36
+Ziogas et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,0,5,60,13,30
+Ziogas et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,0,4,61,20,24
+Ziogas et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,0,5,62,25,18
+Ziogas et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,0,6,63,30,12
+Ziogas et al.,1D (Time-Series),In clinic,ML,ON,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,0,6,64,36,6
+Ziogas et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,11,2,65,21,14
+Ziogas et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,7,2,66,30,9
+Ziogas et al.,1D (Time-Series),In clinic,ML,Mixed,Inertial - IMU,48,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,4,2,67,37,5
+Ziogas et al.,1D (Time-Series),In clinic,ML,Off,Inertial - IMU,14,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,0,1,68,7,6
+Ziogas et al.,1D (Time-Series),In clinic,ML,Off,Inertial - IMU,14,N<60,MDS-UPDRS,,Wrist,Standardized Clinical Scale,Wearable,2023,1,0,69,8,5
+Li et al.,2D,In clinic,ML,ON,Vision - Camera,50,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2022,2,4,70,11,33
+Li et al.,2D,In clinic,ML,ON,Vision - Camera,50,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2022,2,9,71,10,29
+Li et al.,2D,In clinic,ML,ON,Vision - Camera,50,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2022,1,8,72,10,31
+Lu et al.,2D,In clinic,DL,OFF,Vision - Camera,55,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2021,10,9,73,18,18
+Lu et al.,2D,In clinic,DL,OFF,Vision - Camera,55,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2021,9,9,74,19,18
+Lu et al.,2D,In clinic,DL,OFF,Vision - Camera,55,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2021,10,9,75,18,18
+Lu et al.,2D,In clinic,ML,OFF,Vision - Camera,55,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2021,14,15,76,14,12
+Pan et al.,1D,In clinic,ML,NR,Inertial sensor,43,N<60,,UPDRS,Multiple,Standardized Clinical Scale,Wearable,2015,4,7,77,13,19
+Buongiorno et al.,3D,In clinic,ML,NR,Vision - Camera,32,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2019,5,1,78,17,9
+Buongiorno et al.,3D,In clinic,ML,NR,Vision - Camera,32,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2019,3,1,79,17,11
+Buongiorno et al.,3D,In clinic,ML,NR,Vision - Camera,32,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2019,3,1,80,17,11
+Buongiorno et al.,3D,In clinic,ML,NR,Vision - Camera,32,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2019,1,0,81,18,13
+Buongiorno et al.,3D,In clinic,ML,NR,Vision - Camera,32,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2019,0,18,82,0,14
+Buongiorno et al.,3D,In clinic,ML,NR,Vision - Camera,32,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2019,2,4,83,14,12
+Buongiorno et al.,3D,In clinic,ML,NR,Vision - Camera,32,N<60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2019,2,6,84,12,12
+Guo et al.,3D,In clinic,DL,Mixed,Vision - Camera,441,N≥60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2022,76,100,85,147,118
+Guo et al.,3D,In clinic,DL,Mixed,Vision - Camera,441,N≥60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2022,9,15,86,371,46
+Guo et al.,3D,In clinic,DL,Mixed,Vision - Camera,441,N≥60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2022,86,46,87,241,68
+Guo et al.,3D,In clinic,DL,Mixed,Vision - Camera,441,N≥60,,MDS-UPDRS,Vision-Based (non-contact),Standardized Clinical Scale,Non-wearable,2022,11,10,88,393,27
+Kim et al.,2D,In clinic,ML,ON,Vision - Camera,282,N≥60,,MDS-UPDRS,Lower limb,Standardized Clinical Scale,Wearable,2024,24,1,89,206,51
+Kim et al.,2D,In clinic,ML,ON,Vision - Camera,98,N≥60,,MDS-UPDRS,Lower limb,Standardized Clinical Scale,Wearable,2024,5,0,90,83,10
