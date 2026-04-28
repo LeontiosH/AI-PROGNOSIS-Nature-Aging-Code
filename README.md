@@ -10,7 +10,9 @@ submitted to Nature Aging
 1.  System requirements
 
 Requires STATA Version 17.0, Midas, Metandi modules
+
 The software was tested on STATA Version 17.0SE on a ThinkPad X1 Lenovo x64-based PC, X1 Carbon 6th, Intel(R) Core(TM) i7-8550U CPU@1.80GH, 1992 Mhz, 4 Cores, 8 Logical Processors, OS Microsoft Windows 11 Pro
+
 There is no need for any non-standard hardware
 
 2. Installation guide
