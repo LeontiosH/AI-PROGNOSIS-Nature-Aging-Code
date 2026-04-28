@@ -105,7 +105,7 @@ For each csv (on an average sample size 60 studies) the code takes about 2 mins.
 4.  Instructions for use
    
     * How to run the software on our data
-    * 
+      
   Use the demo .csv file and follow the instructions described in 3. Demo.
 
     * Reproduction instructions
