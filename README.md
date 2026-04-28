@@ -26,7 +26,9 @@ There is no need for any non-standard hardware
      Midas, Metandi modules 5 secs
      
 3. Demo
-   *Instructions to run on data   
+4. 
+   *Instructions to run on data
+   
 First copy the content of the theMIDAS-ADO_CodeByLeontios.txt file and replace the whole code of STATA midas.ado file. This will allow the estimation of additional parameters that are not exported by the current version of the midas.ado
 Then, to run the whole analysis, use the following .do files that run as batches:
 
@@ -35,6 +37,7 @@ batchLeontiosMetaREG.do
 batchLeontiosSubGROUP.do
 
 They call, accordingly, the following .do analysis files
+
 AI_PROGNOSIS_Main.do
 AI_PROGNOSIS_MetaRegressionV1.do
 AI_PROGNOSIS_SubGrouping_FINAL
@@ -76,11 +79,11 @@ cd C:\NatAgingPaper\FinallyUsedRev1-USETHIS\SubGrouping * here are the one used 
 do "C:/NatAgingPaper/MainFigsDataDo/batchLeontiosSubGROUP.do" * here are the one used by me
 
    * Expected output
+     
 The batch files run for every .csv that has the contingency tables and exist in the datafolder. Output folders are automatically created, with all related material (.gph, .png, .xlsx).
 
 Note that in the AI_PROGNOSIS_SubGrouping_FINAL, the covariates explored in the paper were used as names. To avoid any error, update with the names of your covariates, accordingly. Here is the current setting of the covariates' name and short name, that should be edited according to your covariates' names and short names.
-
-* Short names (your mapping)
+-Short names (your mapping)
     if "`v'"=="sensorplacement"        local shortname "sg_spl"
     else if ("`v'"=="mldl")            local shortname "sg_mldl"
     else if ("`v'"=="medsonoff")       local shortname "sg_med"
@@ -96,12 +99,17 @@ Note that in the AI_PROGNOSIS_SubGrouping_FINAL, the covariates explored in the 
     display "  Short name: `shortname'"
 
    * Expected run time for demo on a "normal" desktop computer
+     
 For each csv (on an average sample size 60 studies) the code takes about 2 mins. According to the number (N) of the .csv files in the directory the total run time is 2N.
 
 4.  Instructions for use
+5.  
     * How to run the software on our data
+    * 
   Use the demo .csv file and follow the instructions described in 3. Demo.
+
     * Reproduction instructions
+      
   The output on the sample dataset (motor_pd_coded_allstudies_new.csv) will be a folder "motor_pd_coded_allstudies_new_OUTPUT" that incudes the following produced output used in the paper:
 
 motor_pd_coded_allstudies_new_baujat_results.dta
