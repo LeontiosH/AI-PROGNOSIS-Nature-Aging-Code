@@ -16,12 +16,15 @@ There is no need for any non-standard hardware
 2. Installation guide
    * Instructions
      First install the STATA Verison 17.0 from https://www.stata.com/support/download-install/
-     Thenk install the MIDAS and METANDI modules as follows:
+
+     Then install the MIDAS and METANDI modules as follows:
      ssc install midas, replace
      ssc install metandi, replace
+     
    * Typical online install time on a "normal" desktop computer
      STATA 17.0 installation 5-12 mins
      Midas, Metandi modules 5 secs
+     
 3. Demo
    *Instructions to run on data   
 First copy the content of the theMIDAS-ADO_CodeByLeontios.txt file and replace the whole code of STATA midas.ado file. This will allow the estimation of additional parameters that are not exported by the current version of the midas.ado
