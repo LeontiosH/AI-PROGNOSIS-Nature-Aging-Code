@@ -27,6 +27,7 @@ There is no need for any non-standard hardware
    * Typical online install time on a "normal" desktop computer
      
      STATA 17.0 installation 5-12 mins
+     
      Midas, Metandi modules 5 secs
      
 3. Demo
