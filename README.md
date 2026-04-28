@@ -26,7 +26,7 @@ There is no need for any non-standard hardware
      Midas, Metandi modules 5 secs
      
 3. Demo
-4. 
+   
    *Instructions to run on data
    
 First copy the content of the theMIDAS-ADO_CodeByLeontios.txt file and replace the whole code of STATA midas.ado file. This will allow the estimation of additional parameters that are not exported by the current version of the midas.ado
@@ -103,7 +103,7 @@ Note that in the AI_PROGNOSIS_SubGrouping_FINAL, the covariates explored in the 
 For each csv (on an average sample size 60 studies) the code takes about 2 mins. According to the number (N) of the .csv files in the directory the total run time is 2N.
 
 4.  Instructions for use
-5.  
+   
     * How to run the software on our data
     * 
   Use the demo .csv file and follow the instructions described in 3. Demo.
